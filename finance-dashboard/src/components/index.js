@@ -1,0 +1,12 @@
+export { default as Header } from "./Header/Header";
+export { default as Nav } from "./Header/Nav";
+export { default as Hero } from "./Hero/Hero";
+export { default as News } from "./Products/News";
+export { default as NewCard } from "./Products/NewsCard/NewCard";
+export { default as Videos } from "./Products/Videos";
+export { default as Footer } from "./Footer/Footer";
+export { default as Form } from "./Form/Form";
+export { default as Input } from "./Form/Input";
+export { default as Feature } from "./Feature/Feature";
+export { default as Price } from "./Price/Price";
+export { default as ButtonLike } from "./Form/ButtonLike";
