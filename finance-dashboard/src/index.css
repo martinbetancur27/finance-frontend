@@ -31,6 +31,11 @@ h1, h2 {
     border-radius: 10px;
 }
 
+.image-complementary:hover {
+    transform: scale(1.3);
+    transition: transform 0.3s ease;
+}
+
 #main-title {
     font-size: 5rem;
 }
@@ -145,3 +150,40 @@ table {
         #form button:hover {
             background: Linear-gradient(to right, #ff7b00, #a4f13f);
         }
+
+#my-textarea {
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    padding: 10px;
+    background: linear-gradient(to right, #1c1b64, #cb0ee0);
+    border-radius: 5px;
+    width: 80%;
+    height: 40px;
+}
+
+.comment-card {
+    background: linear-gradient(to right, #18172e, #2a072e);
+    color: white;
+    width: 50%;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#btn-comment {
+    background: Linear-gradient(to right, #f13f98, #cb0ee0);
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+    #btn-comment:hover {
+        background: Linear-gradient(to right, #ff7b00, #a4f13f);
+    }

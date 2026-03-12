@@ -6,6 +6,7 @@ import Feature from "./components/Feature/Feature";
 import Form from "./components/Form/Form";
 import Footer from "./components/Footer/Footer";
 import Price from "./components/Price/Price";
+import Comment from "./components/Comments/Comment";
 
 function App() {
 
@@ -28,6 +29,8 @@ function App() {
           <Price />
 
           <Form />
+
+          <Comment />
 
           <Footer />
 
