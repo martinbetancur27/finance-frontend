@@ -1,5 +1,6 @@
 import { useState } from "react";
 import CommentCard from "./CommentCard";
+import Button from "../Button/Button";
 
 export default function Comment() {
     const [texto, setTexto] = useState("");
@@ -14,13 +15,12 @@ export default function Comment() {
         value={texto} onChange={(e) => setTexto(e.target.value)}>
         </textarea>
         <br></br>
-        <button id="btn-comment" disabled={esInvalido} onClick={() => setFeed([texto, ...feed])}>Publicar</button>
+        <Button id="btn-comment" className="" text="Publicar" onClick={() => setFeed([texto, ...feed])} disabled={esInvalido} />
 
         <ul>
             {feed.map((twit, index) => (
               <CommentCard key={index} msg={{text: twit}} />
             ))}
-
         </ul>
       </div>
     </>

@@ -1,3 +1,5 @@
+import Button from '../Button/Button';
+
 function Price() {
   return (
 
@@ -25,7 +27,7 @@ function Price() {
                     </tbody>
                 </table>
 
-                <button id="buy-plan" className="text-center" type="button">¡Buy Now!</button>
+                <Button id="buy-plan" className="text-center" text="¡Buy Now!" />
             </section>
   )
 }

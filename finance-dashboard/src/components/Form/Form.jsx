@@ -1,5 +1,6 @@
 import Input from "./Input";
-import ButtonLike from "./ButtonLike";
+import ButtonLike from "../Button/ButtonLike";
+import Button from "../Button/Button";
 
 function Form() {
 
@@ -16,8 +17,7 @@ function Form() {
                     <Input htmlFor="message" label="Message" type="textarea" id="message" name="message" rows="10" cols="30" placeholder="Your Message" />
                     
                     <ButtonLike />
-
-                    <button type="submit">Send</button>
+                    <Button text="Send" />
                 </form>
             </section>
   )

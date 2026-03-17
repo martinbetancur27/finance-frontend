@@ -1,4 +1,4 @@
-import NewCard from "./NewsCard/NewCard";
+import NewCard from "./NewCard";
 
 function News() {
 
