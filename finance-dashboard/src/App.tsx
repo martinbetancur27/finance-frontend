@@ -1,12 +1,12 @@
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import News from "./components/News/News";
-import Videos from "./components/Videos/Videos";
-import Feature from "./components/Feature/Feature";
-import Form from "./components/Form/Form";
-import Footer from "./components/Footer/Footer";
-import Price from "./components/Price/Price";
-import Comment from "./components/Comments/Comment";
+import Header from "./components/Header/Header.js";
+import Hero from "./components/Hero/Hero.js";
+import News from "./components/News/News.js";
+import Videos from "./components/Videos/Videos.js";
+import Feature from "./components/Feature/Feature.js";
+import Form from "./components/Form/Form.js";
+import Footer from "./components/Footer/Footer.js";
+import Price from "./components/Price/Price.js";
+import Comment from "./components/Comments/Comment.js";
 
 function App() {
 

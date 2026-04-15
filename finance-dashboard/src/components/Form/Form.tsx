@@ -14,7 +14,7 @@ function Form() {
 
                     <Input htmlFor="email" label="Email" type="email" id="email" name="email" placeholder="Your Email" />
 
-                    <Input htmlFor="message" label="Message" type="textarea" id="message" name="message" rows="10" cols="30" placeholder="Your Message" />
+                    <Input htmlFor="message" label="Message" type="textarea" id="message" name="message" placeholder="Your Message" />
                     
                     <ButtonLike />
                     <Button text="Send" />
