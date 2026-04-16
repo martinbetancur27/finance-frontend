@@ -1,9 +1,11 @@
-function Feature( {idTitle, title, srcImage, altImage} ) {
+import { FeatureProps } from '../../types/FeatureProps'
+
+function Feature( props : FeatureProps ) {
 
   return (
        <section className="text-center">
-                <h2 id={idTitle}>{title}</h2>
-                <img className="image-complementary" src={srcImage} alt={altImage}></img>
+          <h2 id={props.idTitle}>{props.title}</h2>
+          <img className="image-complementary" src={props.img} alt={props.altImg}></img>
         </section>
   )
 }

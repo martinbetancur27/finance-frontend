@@ -19,7 +19,7 @@ export default function Comment() {
 
         <ul>
             {feed.map((twit, index) => (
-              <CommentCard key={index} msg={{text: twit}} />
+              <CommentCard msg={{id: index, description: twit}} />
             ))}
         </ul>
       </div>

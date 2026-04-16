@@ -1,6 +1,8 @@
-export default function CommentCard( {msg} ) {
+import { Comment } from '../../types/comment'
+
+export default function CommentCard( {msg} : {msg: Comment } ) {
 
   return (
-    <ol className="comment-card" key={msg.text}>{msg.text}</ol>
+    <ol className="comment-card" key={msg.id}>{msg.description}</ol>
   )
 }
