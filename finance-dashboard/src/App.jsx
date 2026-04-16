@@ -7,12 +7,15 @@ import Form from "./components/Form/Form";
 import Footer from "./components/Footer/Footer";
 import Price from "./components/Price/Price";
 import Comment from "./components/Comments/Comment";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";  
+import "./components/News/News";
 
 function App() {
 
   return (
     <>  
-      <main>
+      {/*<main>
 
           <Header />
 
@@ -32,9 +35,24 @@ function App() {
 
           <Comment />
 
-          <Footer />
+          <Footer /> 
 
-        </main>
+        </main>*/}
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={ <Home /> } />
+                <Route path="/news" element={ <News /> } />
+                <Route path="/who-we-are" element={ <Hero /> } />
+                <Route path="/real-time" element={ <Feature idTitle="Real Time Bitcoin (Coming Soon)" title="Real Time Bitcoin (Coming Soon)" srcImage="https://t4.ftcdn.net/jpg/07/38/52/07/360_F_738520764_e3QgRRDaLqpwGTmgLunpkmOAkuobdAHs.jpg" altImage="Bitcoin" /> } />
+                <Route path="/videos" element={ <Videos /> } />
+                <Route path="/prices" element={ <Price /> } />
+                <Route path="/contact-us" element={ <Form /> } />
+                <Route path="/comments" element={ <Comment /> } />
+
+                <Route path="*" element={ <p>Page Not Found</p> } />
+            </Routes>
+        </BrowserRouter>
+
     </>
   )
 }
