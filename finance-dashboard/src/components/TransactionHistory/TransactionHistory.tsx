@@ -1,12 +1,13 @@
-export function TransactionHistory() {
+export function TransactionHistory(  ) {
     return (
-        <div className="transaction-history">
+        <div id="transaction-history">
             <h4>Historial de Movimientos</h4>
             <input type="text" placeholder="Buscar por categoría..." />
-            <button>Limpiar Historial</button>
+            <button id="clear-history">Limpiar Historial</button>
 
             <ul>
-                <li>
+                <li className="transaction-item">
+                    <span>Order buy</span>
                 </li>
             </ul>
         </div>

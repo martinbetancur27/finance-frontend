@@ -7,6 +7,7 @@ import Form from "./components/Form/Form.js";
 import Footer from "./components/Footer/Footer.js";
 import Price from "./components/Price/Price.js";
 import Comment from "./components/Comments/Comment.js";
+import { Market } from "./components/Market/Market.js";
 
 function App() {
 
@@ -33,6 +34,8 @@ function App() {
           <Comment />
 
           <Footer />
+
+          <Market />
 
         </main>
     </>
