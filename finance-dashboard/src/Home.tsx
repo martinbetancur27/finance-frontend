@@ -12,8 +12,6 @@ function Home() {
 
           <Hero />
 
-          <Comment />
-
           <Footer /> 
 
         </main>

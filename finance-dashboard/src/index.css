@@ -270,7 +270,7 @@ table {
     }
 
     .trade-input {
-        padding: 10px;
+        padding: 5px;
         border: none;
         border-radius: 5px;
         width: 100%;
@@ -305,4 +305,33 @@ table {
         justify-content: space-between;
         padding: 10px;
         border-bottom: 1px solid rgb(200, 200, 200);
+    }
+
+    .trade-label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+        font-size: 0.8rem;
+    }
+
+    #market-title {
+        text-align: center;
+        color: #ffaf04;
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    #features {
+        background: linear-gradient(to right, #0e0e0e, #cb0ee0);
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+    }
+
+    #who-we-are-text {
+        color: white;
+        font-size: 1.8rem;
+        line-height: 1.5;
     }

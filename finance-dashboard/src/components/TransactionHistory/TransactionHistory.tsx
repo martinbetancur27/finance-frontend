@@ -1,14 +1,19 @@
-export function TransactionHistory(  ) {
+import { Order } from "../../types/Order";
+
+export function TransactionHistory( { orders, setTradeAmount }: { orders: Order[], setTradeAmount: React.Dispatch<React.SetStateAction<Order[]>> } ) {
     return (
         <div id="transaction-history">
             <h4>Historial de Movimientos</h4>
             <input type="text" placeholder="Buscar por categoría..." />
-            <button id="clear-history">Limpiar Historial</button>
+            <button id="clear-history" onClick={() => setTradeAmount([])}>Limpiar Historial</button>
 
             <ul>
-                <li className="transaction-item">
-                    <span>Order buy</span>
-                </li>
+                {orders.map((order, index) => (
+                    <li key={index} className="transaction-item">
+                        <span className="transaction-type">{order.type === "BUY" ? "Compra" : "Venta"}</span>
+                        <span className="transaction-quantity">Cantidad: {order.quantity} USD</span>
+                    </li>
+                ))}
             </ul>
         </div>
     );
