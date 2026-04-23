@@ -1,6 +1,6 @@
-import { Balance } from "../Balance/Balance";
-import { TradeMarket } from "../TradeMarket/TradeMarket";
-import { TransactionHistory } from "../TransactionHistory/TransactionHistory";
+import { Balance } from "./Balance/Balance";
+import { TradeMarket } from "./TradeMarket/TradeMarket";
+import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
 import Comment from "../Comments/Comment";
 import React from "react";
 import { Order } from "../../types/Order";

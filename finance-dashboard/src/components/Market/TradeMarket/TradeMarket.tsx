@@ -1,8 +1,8 @@
-import { Order } from "../../types/Order";
-import { TypeOrder } from "../../types/Order";
+import { Order } from "../../../types/Order";
+import { TypeOrder } from "../../../types/Order";
 import React from "react";
-import { useFetch } from '../../hooks/useFetch';
-import { BitcoinPriceResponse } from '../../types/BitcoinPriceResponse';
+import { useFetch } from '../../../hooks/useFetch';
+import { BitcoinPriceResponse } from '../../../types/BitcoinPriceResponse';
 
 export function TradeMarket( { setTradeAmount }: { setTradeAmount: React.Dispatch<React.SetStateAction<Order[]>> } ) {
     const [operation, setOperation] = React.useState<TypeOrder>("BUY");

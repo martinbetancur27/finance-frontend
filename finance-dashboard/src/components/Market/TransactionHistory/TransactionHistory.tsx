@@ -1,4 +1,4 @@
-import { Order } from "../../types/Order";
+import { Order } from "../../../types/Order";
 
 export function TransactionHistory( { orders, setTradeAmount }: { orders: Order[], setTradeAmount: React.Dispatch<React.SetStateAction<Order[]>> } ) {
     return (
