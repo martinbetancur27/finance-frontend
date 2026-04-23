@@ -4,9 +4,12 @@ import { TransactionHistory } from "../TransactionHistory/TransactionHistory";
 
 export function Market() {
     return (
-        <div className="market">
-            <Balance />
-            <TradeMarket />
+        <div id="market">
+            
+            <div>
+                <Balance />
+                <TradeMarket />.
+            </div>
             <TransactionHistory />
         </div>
     );

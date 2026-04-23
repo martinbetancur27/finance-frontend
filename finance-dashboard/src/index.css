@@ -187,3 +187,122 @@ table {
     #btn-comment:hover {
         background: Linear-gradient(to right, #ff7b00, #a4f13f);
     }
+
+    #market {
+        background: linear-gradient(to right, #0e0e0e, #cb0ee0);
+        color: white;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    #balance {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        color: white;
+        border: 2px solid;
+        border-radius: 25px;
+        padding: 20px;
+        width: 70%;
+        background: linear-gradient(to right, #000000, #120313);
+    }
+
+    #trade-market {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        color: white;
+        border: 2px solid;
+        border-radius: 25px;
+        padding: 20px;
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    #execute-order {
+        margin-top: 20px;
+        background: Linear-gradient(to right, #f13f98, #cb0ee0);
+        color: white;
+        font-size: 15px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 40px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        #execute-order:hover {
+            background: Linear-gradient(to right, #ff7b00, #a4f13f);
+    }
+
+    #transaction-history {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        color: white;
+        border: 2px solid;
+        border-radius: 25px;
+        padding: 20px;
+        width: 80%;
+        margin-top: 20px;
+    }
+
+        #transaction-history input {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            width: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        #transaction-history button {
+            background: Linear-gradient(to right, #f13f98, #cb0ee0);
+            color: white;
+            font-size: 15px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+            #transaction-history button:hover {
+                background: Linear-gradient(to right, #ff7b00, #a4f13f);
+    }
+
+    .trade-input {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        margin-bottom: 20px;
+        font-family: Arial, sans-serif;
+    }
+
+    .trade-select {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        margin-bottom: 20px;
+        font-family: Arial, sans-serif;
+    }
+
+   .balance-label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+        font-size: 0.8rem;      
+    }
+
+    .price-btc {
+        font-size: 2.5rem;  
+        font-weight: bold;
+        color: #ffaf04;
+    }
+
+    .transaction-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 1px solid rgb(200, 200, 200);
+    }

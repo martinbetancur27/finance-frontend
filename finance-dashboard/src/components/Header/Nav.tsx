@@ -10,6 +10,7 @@ function Nav() {
                 <li><Link to="/real-time">Real time</Link></li>
                 <li><Link to="/videos">Videos</Link></li>
                 <li><Link to="/prices">Prices</Link></li>
+                <li><Link to="/market">Market</Link></li>
                 <li><Link to="/contact-us">Contact us</Link></li>
             </ul>
         </nav>

@@ -9,9 +9,9 @@ interface BalanceBTCProps {
 export function BalanceBTC({ priceBTC, priceUSD, cash }: BalanceBTCProps) {
     return (
         <div>
-            <span>SALDO EN BITCOIN (BTC)</span>
+            <span className="balance-label">SALDO EN BITCOIN (BTC)</span>
             <PriceBTC price={priceBTC} />
-            <span>={priceUSD} USD | Cash: {cash}</span>
+            <span className="balance-label">={priceUSD} USD | Cash: {cash}</span>
         </div>
     );
 }

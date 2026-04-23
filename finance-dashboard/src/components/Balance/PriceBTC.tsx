@@ -5,7 +5,7 @@ interface PriceBTCProps {
 export function PriceBTC({ price }: PriceBTCProps) {
     return (
         <div>
-            <span>${price} BTC</span>
+            <span className="price-btc">${price} BTC</span>
         </div>
     );
 }
