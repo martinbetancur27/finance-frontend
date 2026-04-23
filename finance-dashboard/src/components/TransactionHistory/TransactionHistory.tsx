@@ -4,7 +4,7 @@ export function TransactionHistory( { orders, setTradeAmount }: { orders: Order[
     return (
         <div id="transaction-history">
             <h4>Historial de Movimientos</h4>
-            <input type="text" placeholder="Buscar por categoría..." />
+            
             <button id="clear-history" onClick={() => setTradeAmount([])}>Limpiar Historial</button>
 
             <ul>
