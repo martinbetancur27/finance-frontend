@@ -43,7 +43,7 @@ function App() {
                 <Route path="/" element={ <Home /> } />
                 <Route path="/news" element={ <News /> } />
                 <Route path="/who-we-are" element={ <Hero /> } />
-                <Route path="/real-time" element={ <Feature idTitle="Real Time Bitcoin (Coming Soon)" title="Real Time Bitcoin (Coming Soon)" srcImage="https://t4.ftcdn.net/jpg/07/38/52/07/360_F_738520764_e3QgRRDaLqpwGTmgLunpkmOAkuobdAHs.jpg" altImage="Bitcoin" /> } />
+                <Route path="/real-time" element={ <Feature idTitle="Real Time Bitcoin (Coming Soon)" title="Real Time Bitcoin (Coming Soon)" img="https://t4.ftcdn.net/jpg/07/38/52/07/360_F_738520764_e3QgRRDaLqpwGTmgLunpkmOAkuobdAHs.jpg" altImg="Bitcoin" /> } />
                 <Route path="/videos" element={ <Videos /> } />
                 <Route path="/prices" element={ <Price /> } />
                 <Route path="/contact-us" element={ <Form /> } />

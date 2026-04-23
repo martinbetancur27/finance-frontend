@@ -1,8 +1,11 @@
+import Nav from "../Header/Nav";
 import VideoCard from "./VideoCard";
 
 function Videos() {
 
   return (
+    <>
+        <Nav /> 
         <section id="videos">
             <h2 className="title text-center">Videos</h2>
             <div className="inline">
@@ -12,6 +15,7 @@ function Videos() {
                 <VideoCard link="https://www.youtube.com/embed/W73FZvTqBrs?si=7noKwjvZea3EY9oM" title="Video 2" />
             </div>
         </section>
+    </>
   )
 }
 

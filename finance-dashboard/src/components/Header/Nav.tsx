@@ -6,7 +6,6 @@ function Nav() {
        <nav id="nav">
         <Link to="/" className="logo">Finance Dashboard</Link>
             <ul>
-                <li><Link to="/who-we-are">Who we are</Link></li>
                 <li><Link to="/news">News</Link></li>
                 <li><Link to="/real-time">Real time</Link></li>
                 <li><Link to="/videos">Videos</Link></li>

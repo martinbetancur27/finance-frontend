@@ -1,8 +1,10 @@
 import Button from '../Button/Button';
+import Nav from '../Header/Nav';
 
 function Price() {
   return (
-
+    <>
+      <Nav />
         <section id="prices">
                 <h2 className="title text-center">Prices</h2>
                 <table>
@@ -29,6 +31,7 @@ function Price() {
 
                 <Button id="buy-plan" className="text-center" text="¡Buy Now!" />
             </section>
+    </>
   )
 }
 

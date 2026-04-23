@@ -4,7 +4,6 @@ function Hero() {
 
   return (
         <>
-        <Nav />   
         <section id="who-we-are">
             <h2 className="title text-center">Who We Are:</h2>
             <article>
